@@ -40,7 +40,7 @@ Make sure to click the ```Submit``` button after uploading files and choosing al
 - Choose an algorithm:- This allows you to select an anomaly detection algorithm. The algorithm will detect at what moments in time an anomaly occurred and will display it in a table
 - You can use one of our demo CSV files: 
   1. https://github.com/Gitit-Shapira/Web-App/blob/a495f63391a41c25430f300ea349dd8f2732a7e3/Demo%20files/train.csv - file that containing the learning data.
-  2. https://github.com/Gitit-Shapira/Web-App/blob/a495f63391a41c25430f300ea349dd8f2732a7e3/Demo%20files/test.csv - real Flight Data for anomalies detection. 
+  2. https://github.com/Gitit-Shapira/Web-App/blob/main/Demo%20files/test.csv - real Flight Data for anomalies detection. 
 
 ## Project Hierarchy
 
