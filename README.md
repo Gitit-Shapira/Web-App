@@ -58,6 +58,7 @@ The main files in our project are as follow:
 
 ## More documentation
 - UML:
+![uml.png](uml.png)
 
 ## Demo video
 https://www.youtube.com/watch?v=Ic3aTA65_wQ
