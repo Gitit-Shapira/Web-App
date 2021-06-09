@@ -1,0 +1,28 @@
+{
+  "name": "web_app_easy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yair2121/Web_App.git"
+  },
+  "author": "Yair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yair2121/Web_App/issues"
+  },
+  "homepage": "https://github.com/yair2121/Web_App#readme",
+  "dependencies": {
+    "csv": "^5.5.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-uploadfiles": "^1.0.4",
+    "jsdom": "^16.6.0",
+    "nodemon": "^2.0.7",
+    "smallest-enclosing-circle": "^1.0.2"
+  }
+}
