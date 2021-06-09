@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>
+		Anomaly Detection
+	</title>
+	<link rel="stylesheet" href="mystyle.css">
+</head>
+<body background="flight4.png">
+	<br /><br /><br /><br />
+	<h1 align="center">
+		<font face="Tahoma" color="0E193F" size="7">
+			Anomaly Detection
+		</font>
+		
+	</h1>
+	<h3 align="center">
+		<font face="Tahoma" color="0E0A54" size="5">
+			Upload your files
+		</font>
+	</h3>
+	<form align="center" action="/detect" method="POST" enctype="multipart/form-data" target="result">
+  		<input type="button"  class="input input2" value="Choose Learn File" onclick="document.getElementById('file').click();" />
+		<input type="file" style="display:none;" id="file" name="learn_file"/>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="button" class="input input2" value="Choose Detect File" onclick="document.getElementById('file1').click();" />
+		<input type="file" style="display:none;" id="file1" name="detect_file"/>
+		
+		<br><br><br><br>
+		<div class="box">
+			<label style="font-family:Tahoma">Choose an algorithm:</label>
+			<br>
+			<select name="setting">
+		  		<option value="Simple">Simple Anomaly Detection</option>
+		  		<option value="Circle">Circle Anomaly Detection</option>
+			</select>
+	</div>
+	<br><br><br>
+	<input type="submit" name="submit" value="submit" class="input3 input2">
+	<form/>
+
+	<br>
+
+	<iframe name="result"  width="80%" height="500"></iframe>
+
+</body>
+</html>
